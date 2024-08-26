@@ -4,7 +4,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = () => {
-  const computer = useGLTF("/desktop_pc/scene.gltf");
+  const computer = useGLTF("./desktop_pc/scene.gltf");
   return (
     <mesh>
       <hemisphereLight intensity={1} groundColor="black" />
@@ -15,12 +15,12 @@ const Computers = () => {
         penumbra={1} 
         intensity={1} 
         castShadow
-        shadowmapSize-width={1024}
+        shadow-mapSize={1024}
         />
       <primitive
         object={computer.scene}
         scale={0.75} 
-        position={[0, -4.05, -1.5]}
+        position={[0, -4.35, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
