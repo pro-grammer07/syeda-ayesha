@@ -12,17 +12,24 @@ import {
     mongodb,
     git,
     figma,
-    meta,
-    carrent,
-    Social, 
-    jobit,
-    tripguide,
     threejs,
     inovam, 
     codifyz,
-    FriendFusion,
     hms,
     drpaint, 
+    bubble,
+    python,
+    herm, 
+    adventure,
+    bazaar,
+    deenvision,
+    erbio,
+    gmail,
+    linkedin,
+    fiverr,
+    youtube,
+    friendfusion,
+    github,
   } from "../assets";
   
   export const navLinks = [
@@ -42,11 +49,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "MERN Stack Developer",
       icon: web,
     },
     {
-      title: "Full Stack Developer",
+      title: "Bubble.io Developer",
       icon: mobile,
     },
     {
@@ -60,6 +67,14 @@ import {
   ];
   
   const technologies = [
+    {
+      name: "Bubble.io",
+      icon: bubble,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -101,6 +116,35 @@ import {
       icon: figma,
     },
   ];
+
+
+   const socials = [
+    {
+      name: "Email",
+      icon: gmail,
+      link: "mailto:syedaayeshawajahat@gmail.com",
+    },
+    {
+      name: "LinkedIn",
+      icon: linkedin,
+      link: "www.linkedin.com/in/syeda-ayesha-wajahat-6801392a5",
+    },
+    {
+      name: "GitHub",
+      icon: github,
+      link: "https://github.com/pro-gramer07",
+    },
+    {
+      name: "Fiverr",
+      icon: fiverr,
+      link: "https://www.fiverr.com/pro_gramer07",
+    },
+    {
+      name: "YouTube",
+      icon: youtube,
+      link: "https://www.youtube.com/@syeda.ayeshashah",
+    },
+  ];
   
   const experiences = [
     {
@@ -117,7 +161,7 @@ import {
       ],
     },
     {
-      title: "Full Stack Developer",
+      title: "Bubble.io Developer",
       company_name: "Codifyz",
       icon: codifyz,
       iconBg: "#E6DEDD",
@@ -128,33 +172,7 @@ import {
         "Successfully integrated various APIs and plugins to enhance product functionality.",
         "Developed robust backend workflows, optimizing application performance and reliability.",
       ],
-    },
-    {
-      title: "Backend Engineer",
-      company_name: "FriendFusion",
-      icon: FriendFusion,
-      iconBg: "#383E56",
-      date: "Mar 2024 - May 2024",
-      points: [
-        "Developing and maintaining backend of FriendFusion using node.js, express.js and MongoDB and other related technologies.",
-        "User authentication authorization and verification using JWT and nodemailer ",
-        "Creating and Testing APIs using ThunderClient and Postman",
-        "Developing CRM (Controllers, Routes, Models) functionalities for the website.",
-      ],
-    },
-    {
-      title: "Database Engineer",
-      company_name: "HMS",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Mar 2024 - May 2024",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [
@@ -186,9 +204,52 @@ import {
   
   const projects = [
     {
-      name: "Social Media App",
+      name: "Erbio",
       description:
-        "FriendFusion - Web-based platform that allows users to create profiles, upload posts, like posts, comment on posts, reply to comments, send and accept friend requests, get friend suggestions, keep track of profile views, light and dark mode.",
+        "Erbio is a simple solution for web accessibility, With Erbio you can easily create a legally secure will online and adapt it again and again.",
+      tags: [
+        {
+          name: "Bubble.io",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: erbio,
+      source_code_link: "https://www.erbio.de/",
+    },
+
+        {
+      name: "Bazaar Marketplace",
+      description:
+        "This app offers listing Ads for Cars, property, electrical appliances and general goods, connecting buyer and seller using in app chats and commenting on Ads.",
+      tags: [
+        {
+          name: "Bubble.io",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bazaar,
+      source_code_link: "https://www.bazarsyr.com/?screen=0",
+    },
+        {
+      name: "FriendFusion",
+      description:
+        "Web-based platform that allows users to create profiles, upload posts, like and comment on posts, reply to comments, send and accept friend requests, get friend suggestions, keep track of profile views, light and dark mode.",
       tags: [
         {
           name: "React",
@@ -202,10 +263,12 @@ import {
           name: "MongoDB",
           color: "pink-text-gradient",
         },
+
       ],
-      image: Social,
+      image: friendfusion,
       source_code_link: "https://github.com/laiqaali51214/FriendFusionComplete",
     },
+
     {
       name: "DrPaint",
       description:
@@ -228,6 +291,49 @@ import {
       source_code_link: "https://github.com/eemankhalid/DrPaintsite",
     },
     {
+      name: "Adventure Tour Travels",
+      description:
+        "Adventure Tour Travels - A travel agency website that allows users to browse and book various travel packages. Whatsapp and E-Mail functionality is also integrated.",
+      tags: [
+        {
+          name: "Node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: adventure,
+      source_code_link: "",
+    },
+    {
+      name: "Deen Vision",
+      description:
+        "Deen Vision - A web app that allow users to explore and buy Islamic jars.",
+      tags: [
+        {
+          name: "Node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: deenvision,
+      source_code_link: "",
+    },
+
+    {
       name: "Hospital System",
       description:
         "A hospital management system that has three user roles; patient, doctor and admin. Users can maintain profiles. Doctor can view patients information and prescribe medicines which patient can view. Admin can add, delete and edit other users.",
@@ -248,6 +354,26 @@ import {
       image: hms,
       source_code_link: "https://github.com/pro-gramer07/Hospital-Management-System",
     },
+         { name: "Herm.io",
+      description:
+        "This web app has Dashboard, Login/Sign up, Repeating groups development with backend workflows to display data in Bubble frontend fetched form bubble database.",
+      tags: [
+        {
+          name: "Bubble.io",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: herm,
+      source_code_link: "",
+    },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, socials };

@@ -20,21 +20,29 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import bubble from "./tech/bubble.webp";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import FriendFusion from "./company/FriendFusion.png";
 import inovam from "./company/inovam.png";
 import codifyz from "./company/codifyz.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import Social from "./Social.png";
+import youtube from "./socials/youtube.png";
+import linkedin from "./socials/linkedin.jpg";
+import gmail from "./socials/gmail.webp";
+import fiverr from "./socials/fiverr.png";
+
+import friendfusion from "./friendfusion.png";
 import hms from "./hms.png";
 import drpaint from "./drpaint.png";
+import adventure from "./adventure.png";
+import bazaar from "./bazaar.jpeg";
+import deenvision from "./deenvision.png";
+import erbio from "./erbio.jpeg";
+import herm from "./herm.webp";
 
 export {
   logo,
@@ -62,13 +70,20 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
-  FriendFusion,
   inovam,
   codifyz,
-  Social,
+  friendfusion,
   hms,
   drpaint,
+  python,
+  bubble,
+  adventure,
+  bazaar,
+  deenvision,
+  erbio,
+  herm,
+  fiverr,
+  gmail,
+  linkedin,
+  youtube,
 };
