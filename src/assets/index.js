@@ -25,10 +25,16 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import FriendFusion from "./company/FriendFusion.png";
+import inovam from "./company/inovam.png";
+import codifyz from "./company/codifyz.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Social from "./Social.png";
+import hms from "./hms.png";
+import drpaint from "./drpaint.png";
 
 export {
   logo,
@@ -59,4 +65,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  FriendFusion,
+  inovam,
+  codifyz,
+  Social,
+  hms,
+  drpaint,
 };
