@@ -41,6 +41,10 @@ import {
       id: "work",
       title: "Work",
     },
+        {
+      id: "works",
+      title: "Projects",
+    },
     {
       id: "contact",
       title: "Contact",
@@ -132,7 +136,7 @@ import {
     {
       name: "GitHub",
       icon: github,
-      link: "https://github.com/pro-gramer07",
+      link: "https://github.com/pro-grammer07",
     },
     {
       name: "Fiverr",
@@ -309,7 +313,7 @@ import {
         },
       ],
       image: adventure,
-      source_code_link: "",
+      source_code_link: "https://github.com/pro-gramer07",
     },
     {
       name: "Deen Vision",
@@ -330,7 +334,7 @@ import {
         },
       ],
       image: deenvision,
-      source_code_link: "",
+      source_code_link: "https://github.com/pro-gramer07",
     },
 
     {
@@ -372,7 +376,7 @@ import {
         },
       ],
       image: herm,
-      source_code_link: "",
+      source_code_link: "https://github.com/pro-gramer07",
     },
   ];
   

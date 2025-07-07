@@ -9,7 +9,7 @@ const Social = () => {
         <div
           key={social.name}
           onClick={() => window.open(social.link, "_blank")}
-          className="w-24 h-28 flex flex-col items-center justify-center bg-gray-800 rounded-xl hover:scale-105 transition-all duration-300 cursor-pointer shadow-md"
+          className="w-24 h-28 flex flex-col items-center justify-center bg-tertiary rounded-xl hover:scale-110 hover:border-2 hover:border-white hover:border-solid transition-all duration-300 cursor-pointer shadow-md"
         >
           <img
             src={social.icon}

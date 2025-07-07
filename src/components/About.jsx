@@ -44,8 +44,7 @@ const About = () => {
       >
         A dedicated Computer Science student, actively seeking opportunities
         within a forward-thinking organization to apply my skills and knowledge
-        to drive both personal and professional growth. Eager to apply skills
-        and drive innovation while contributing meaningfully.
+        to drive both personal and professional growth and contribute in organization. Bridging AI and web development using code and low-code excites me.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
