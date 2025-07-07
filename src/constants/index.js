@@ -131,7 +131,7 @@ import {
     {
       name: "LinkedIn",
       icon: linkedin,
-      link: "www.linkedin.com/in/syeda-ayesha-wajahat-6801392a5",
+      link: "https://www.linkedin.com/in/syeda-ayesha-wajahat-6801392a5/",
     },
     {
       name: "GitHub",
